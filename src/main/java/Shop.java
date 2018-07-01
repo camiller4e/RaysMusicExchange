@@ -8,7 +8,7 @@ public class Shop {
     private Owner owner;
     private ArrayList<ISell> stock;
 
-    public Shop(String name, Owner owner, ArrayList<ISell> stock) {
+    public Shop(String name, Owner owner) {
         this.name = name;
         this.owner = owner;
         this.stock = new ArrayList<ISell>();

@@ -23,8 +23,9 @@ public class ShopTest {
 
     @Before
     public void setUp() throws Exception {
-        shop = new Shop("Ray's Music Exchange", Ray, stock);
         stock = new ArrayList<ISell>();
+        Ray = new Owner("Ray");
+        shop = new Shop("Ray's Music Exchange", Ray);
         guitar = new Guitar(100, 200, Manufacturer.FENDER, "sunburst", "string", "Telecaster", 6);
         bass = new Bass(150, 300, Manufacturer.FENDER, "white", "string", "Jazz", 4);
         drums = new Drums(500, 1000, Manufacturer.YAMAHA, "pink", "percussion", "Stage", 4);
@@ -73,7 +74,6 @@ public class ShopTest {
 
     @Test
     public void canGetTotalProjectedProfits() {
-        ArrayList<ISell> stock = new ArrayList<ISell>();
         stock.add(guitar);
         stock.add(drums);
         assertEquals(600, shop.getTotalProjectedProfits());
