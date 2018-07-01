@@ -1,16 +1,17 @@
 import Behaviours.ISell;
+import Stock.Instrument;
 
 import java.util.ArrayList;
 
 public class Shop {
     private String name;
-    private ArrayList<ISell> stock;
     private Owner owner;
+    private ArrayList<ISell> stock;
 
-    public Shop(String name, Owner owner) {
+    public Shop(String name, Owner owner, ArrayList<ISell> stock) {
         this.name = name;
-        this.stock = stock;
         this.owner = owner;
+        this.stock = new ArrayList<ISell>();
     }
 
     public String getName() {
@@ -27,5 +28,13 @@ public class Shop {
 
     public void setStock(ArrayList<ISell> stock) {
         this.stock = stock;
+    }
+
+    public int getTotalProjectedProfits(){
+        int totalProfit = 0;
+        for (ISell instrument : stock){
+            totalProfit += instrument.calculateMarkup();
+        }
+        return totalProfit;
     }
 }

@@ -32,4 +32,5 @@ public abstract class Stock {
     public void setSellPrice(int sellPrice) {
         this.sellPrice = sellPrice;
     }
+
 }

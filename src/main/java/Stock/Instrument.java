@@ -25,4 +25,5 @@ public abstract class Instrument extends Stock {
     public String getModel() {
         return model;
     }
+
 }
