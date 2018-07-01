@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a11b198d-70c4-405e-b10c-813307833baf" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Behaviours/ISell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Behaviours/ISell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Stock/Accessories.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Stock/Accessories.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Stock/Bass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Stock/Bass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Stock/Drums.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Stock/Drums.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Stock/Guitar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Stock/Guitar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Stock/Keyboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Stock/Keyboard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Stock/Sax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Stock/Sax.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AccessoriesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AccessoriesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BassTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DrumsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DrumsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GuitarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GuitarTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/KeyboardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/KeyboardTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SaxTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SaxTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Owner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Owner.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -94,37 +82,42 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Accessories.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Stock/Accessories.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="53" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Owner.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Owner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+            <state relative-caret-position="228">
+              <caret line="12" column="74" lean-forward="true" selection-start-line="12" selection-start-column="74" selection-end-line="12" selection-end-column="74" />
               <folding>
                 <element signature="e#92#93#0" expanded="true" />
                 <element signature="e#124#125#0" expanded="true" />
+                <element signature="e#155#156#0" expanded="true" />
                 <element signature="e#182#183#0" expanded="true" />
+                <element signature="e#203#204#0" expanded="true" />
+                <element signature="e#266#267#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShopTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="OwnerTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/OwnerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#223#224#0" expanded="true" />
+                <element signature="e#244#245#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShopTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ShopTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="530">
-              <caret line="54" column="38" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
+            <state relative-caret-position="321">
+              <caret line="69" column="5" lean-forward="true" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#261#262#0" expanded="true" />
@@ -132,6 +125,7 @@
                 <element signature="e#411#412#0" expanded="true" />
                 <element signature="e#441#442#0" expanded="true" />
                 <element signature="e#1433#1440#0" expanded="true" />
+                <element signature="e#1775#1782#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -202,6 +196,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Shop/Shop.java" />
         <option value="$PROJECT_DIR$/src/main/java/Shop.java" />
         <option value="$PROJECT_DIR$/src/test/java/ShopTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Owner.java" />
+        <option value="$PROJECT_DIR$/src/test/java/OwnerTest.java" />
       </list>
     </option>
   </component>
@@ -404,18 +400,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_Homework - 2018.07.01 at 16h 01m 06s.xml">
-      <configuration name="All in Homework" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_Homework - 2018.07.01 at 16h 08m 18s.xml">
-      <configuration name="All in Homework" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_Homework - 2018.07.01 at 16h 11m 29s.xml">
-      <configuration name="All in Homework" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_Homework - 2018.07.01 at 16h 33m 18s.xml">
-      <configuration name="All in Homework" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_Homework - 2018.07.01 at 16h 35m 14s.xml">
       <configuration name="All in Homework" configurationId="JUnit" />
     </history-entry>
@@ -434,6 +418,18 @@
     <history-entry file="All_in_Homework - 2018.07.01 at 17h 16m 20s.xml">
       <configuration name="All in Homework" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_Homework - 2018.07.01 at 17h 24m 41s.xml">
+      <configuration name="All in Homework" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_Homework - 2018.07.01 at 17h 25m 55s.xml">
+      <configuration name="All in Homework" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_Homework - 2018.07.01 at 17h 29m 27s.xml">
+      <configuration name="All in Homework" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_Homework - 2018.07.01 at 17h 33m 18s.xml">
+      <configuration name="All in Homework" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -447,12 +443,12 @@
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.30481285" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.30481285" />
       <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.17578125" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.17578125" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info id="UI Designer" order="1" />
@@ -613,18 +609,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Owner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-          <folding>
-            <element signature="e#92#93#0" expanded="true" />
-            <element signature="e#124#125#0" expanded="true" />
-            <element signature="e#182#183#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/BassTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -706,8 +690,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ShopTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="54" column="38" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
+        <state relative-caret-position="321">
+          <caret line="69" column="5" lean-forward="true" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#261#262#0" expanded="true" />
@@ -715,6 +699,34 @@
             <element signature="e#411#412#0" expanded="true" />
             <element signature="e#441#442#0" expanded="true" />
             <element signature="e#1433#1440#0" expanded="true" />
+            <element signature="e#1775#1782#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Owner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="74" lean-forward="true" selection-start-line="12" selection-start-column="74" selection-end-line="12" selection-end-column="74" />
+          <folding>
+            <element signature="e#92#93#0" expanded="true" />
+            <element signature="e#124#125#0" expanded="true" />
+            <element signature="e#155#156#0" expanded="true" />
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/OwnerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#244#245#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -8,4 +8,8 @@ public class Owner {
     public String getName() {
         return name;
     }
+
+    public String preventTheft() {
+        return "*shoots at kid trying to steal guitar* 'now go on, get!'";
+    }
 }
