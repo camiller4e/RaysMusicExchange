@@ -25,7 +25,6 @@ public class ShopTest {
     public void setUp() throws Exception {
         stock = new ArrayList<ISell>();
         Ray = new Owner("Ray");
-        shop = new Shop("Ray's Music Exchange", Ray);
         guitar = new Guitar(100, 200, Manufacturer.FENDER, "sunburst", "string", "Telecaster", 6);
         bass = new Bass(150, 300, Manufacturer.FENDER, "white", "string", "Jazz", 4);
         drums = new Drums(500, 1000, Manufacturer.YAMAHA, "pink", "percussion", "Stage", 4);
@@ -33,6 +32,14 @@ public class ShopTest {
         sax = new Sax(600, 900, Manufacturer.YAMAHA, "brass", "brass", "YTS-23", "tenor");
         strings = new Accessories(5, 10, Manufacturer.MARTIN, "strings");
         drumsticks = new Accessories(5, 20, Manufacturer.YAMAHA, "drumsticks");
+        stock.add(guitar);
+        stock.add(drums);
+        stock.add(bass);
+        stock.add(keyboard);
+        stock.add(sax);
+        stock.add(strings);
+        stock.add(drumsticks);
+        shop = new Shop("Ray's Music Exchange", Ray, stock);
     }
 
     @Test
@@ -47,35 +54,20 @@ public class ShopTest {
 
     @Test
     public void canAddToStock() {
-        ArrayList<ISell> stock = new ArrayList<ISell>();
-        stock.add(guitar);
-        stock.add(drums);
-        stock.add(bass);
-        stock.add(keyboard);
-        stock.add(sax);
-        stock.add(strings);
-        stock.add(drumsticks);
-        assertEquals(7, stock.size());
+        assertEquals(7, shop.stockCount());
     }
 
     @Test
     public void canRemoveFromStock() {
-        ArrayList<ISell> stock = new ArrayList<ISell>();
-        stock.add(guitar);
-        stock.add(drums);
-        stock.add(bass);
-        stock.add(keyboard);
-        stock.add(sax);
-        stock.add(strings);
-        stock.add(drumsticks);
         stock.remove(sax);
         assertEquals(6, stock.size());
     }
 
     @Test
     public void canGetTotalProjectedProfits() {
+        ArrayList<ISell> stock = new ArrayList<ISell>();
         stock.add(guitar);
         stock.add(drums);
-        assertEquals(600, shop.getTotalProjectedProfits());
+        assertEquals(1370, shop.getTotalProjectedProfits());
     }
 }

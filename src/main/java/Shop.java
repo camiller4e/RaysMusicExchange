@@ -8,10 +8,10 @@ public class Shop {
     private Owner owner;
     private ArrayList<ISell> stock;
 
-    public Shop(String name, Owner owner) {
+    public Shop(String name, Owner owner, ArrayList<ISell> stock) {
         this.name = name;
         this.owner = owner;
-        this.stock = new ArrayList<ISell>();
+        this.stock = stock;
     }
 
     public String getName() {
@@ -36,5 +36,9 @@ public class Shop {
             totalProfit += instrument.calculateMarkup();
         }
         return totalProfit;
+    }
+
+    public int stockCount(){
+        return stock.size();
     }
 }
