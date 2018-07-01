@@ -60,4 +60,10 @@ public class DrumsTest {
         assertEquals("boom-CRASH the sound of my DRUMS", drums.play());
     }
 
+    @Test
+    public void canCalculateMarkup() {
+        drums.calculateMarkup();
+        assertEquals(500, drums.calculateMarkup());
+    }
+
 }

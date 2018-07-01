@@ -1,9 +1,10 @@
 package Stock;
 
 import Behaviours.IPlay;
+import Behaviours.ISell;
 import Manufacturers.Manufacturer;
 
-public class Bass extends Instrument implements IPlay {
+public class Bass extends Instrument implements IPlay, ISell {
     private int stringNum;
 
     public Bass(int buyPrice, int sellPrice, Manufacturer manufacturer, String colour, String type, String model, int stringNum) {
@@ -18,4 +19,11 @@ public class Bass extends Instrument implements IPlay {
     public String play() {
         return "boom-ba-doom-SLAP-boom";
     }
+
+    public int calculateMarkup() {
+        int profit = getSellPrice() - getBuyPrice();
+        return profit;
+    }
+
+
 }

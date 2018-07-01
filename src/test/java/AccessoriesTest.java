@@ -39,4 +39,10 @@ public class AccessoriesTest {
         accessories.setSellPrice(12);
         assertEquals(12, accessories.getSellPrice());
     }
+
+    @Test
+    public void canCalculateMarkup() {
+        accessories.calculateMarkup();
+        assertEquals(5, accessories.calculateMarkup());
+    }
 }

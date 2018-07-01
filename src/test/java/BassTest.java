@@ -59,4 +59,10 @@ public class BassTest {
     public void canPlay() {
         assertEquals("boom-ba-doom-SLAP-boom", bass.play());
     }
+
+    @Test
+    public void canCalculateMarkup() {
+        bass.calculateMarkup();
+        assertEquals(150, bass.calculateMarkup());
+    }
 }

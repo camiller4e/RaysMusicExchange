@@ -59,4 +59,10 @@ public class KeyboardTest {
     public void canPlay() {
         assertEquals("plink plonk", keyboard.play());
     }
+
+    @Test
+    public void canCalculateMarkup() {
+        keyboard.calculateMarkup();
+        assertEquals(300, keyboard.calculateMarkup());
+    }
 }

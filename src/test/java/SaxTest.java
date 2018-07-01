@@ -59,4 +59,10 @@ public class SaxTest {
     public void canPlay() {
         assertEquals("Ba-a-aker StreEEeet", sax.play());
     }
+
+    @Test
+    public void canCalculateMarkup() {
+        sax.calculateMarkup();
+        assertEquals(300, sax.calculateMarkup());
+    }
 }
